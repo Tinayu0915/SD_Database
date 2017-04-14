@@ -1,0 +1,29 @@
+//clicking menu to target
+         function Clickto(){
+            $(".nav").eq(0).on("click",function(){
+             if(y>220){
+              $("body").animate({"scrollTop":0});
+             }
+            });
+            $(".nav").eq(1).on("click",function(){
+                $("body").animate({"scrollTop":860})
+            });
+             $(".nav").eq(2).on("click",function(){
+                $("body").animate({"scrollTop":860})
+            });
+            $(".nav").eq(3).on("click",function(){
+                $("body").animate({"scrollTop":860})
+            });
+            $(".nav").eq(4).on("click",function(){
+                $("body").animate({"scrollTop":1500})
+            });
+            $(".nav").eq(5).on("click",function(){
+                $("body").animate({"scrollTop":2700})
+            });
+            $(".nav").eq(6).on("click",function(){
+                $("body").animate({"scrollTop":2700+$(".resource").height()})
+            });
+            $(".click-to-top").on("click",function(){
+                $("body").animate({"scrollTop":0})
+            });
+            }

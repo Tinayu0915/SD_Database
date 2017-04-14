@@ -2,6 +2,7 @@
 function Scrollmouse(){
     $(window).on("scroll",function(){
     y=$(window).scrollTop();
+        console.log(y);
     if(y>=0 && y<320){
      $(".banner-content").fadeIn();
      } else if(y>=500 && y<1220){

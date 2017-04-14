@@ -1,27 +1,27 @@
 //clicking menu to target
-         function Clickto(){
+         function Clickto(h1,h2,h3,h4,h5){
             $(".nav").eq(0).on("click",function(){
              if(y>220){
               $("body").animate({"scrollTop":0});
              }
             });
             $(".nav").eq(1).on("click",function(){
-                $("body").animate({"scrollTop":860})
+                $("body").animate({"scrollTop":h1})
             });
              $(".nav").eq(2).on("click",function(){
-                $("body").animate({"scrollTop":860})
+                $("body").animate({"scrollTop":h1})
             });
             $(".nav").eq(3).on("click",function(){
-                $("body").animate({"scrollTop":860})
+                $("body").animate({"scrollTop":h1})
             });
             $(".nav").eq(4).on("click",function(){
-                $("body").animate({"scrollTop":1500})
+                $("body").animate({"scrollTop":h1+h2})
             });
             $(".nav").eq(5).on("click",function(){
-                $("body").animate({"scrollTop":2700})
+                $("body").animate({"scrollTop":h1+h2+h3+h4})
             });
             $(".nav").eq(6).on("click",function(){
-                $("body").animate({"scrollTop":2700+$(".resource").height()})
+                $("body").animate({"scrollTop":h1+h2+h3+h4+h5})
             });
             $(".click-to-top").on("click",function(){
                 $("body").animate({"scrollTop":0})

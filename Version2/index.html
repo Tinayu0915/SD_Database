@@ -197,9 +197,15 @@
 <script src="js/map.js"></script>
 <script>
 	$(function(){
+        var b_h=$(".banner").height();
+        var a_h=$(".analysis").height();
+        var s_h=$(".service-outline").height();
+        var p_h=$(".pic-outline").height();
+        var r_h=$(".resource").height();
         var y=$(window).scrollTop();
+        
         Scrollmouse();
-        Clickto();
+        Clickto(b_h,a_h,s_h,p_h,r_h);
         Map();
         
         //display menu in Phone

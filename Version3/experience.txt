@@ -1,0 +1,19 @@
+css:1.Pseudo-classes under control of sibling-class
+     format:  .classname(//sibling-class)+ .classname{ }
+    
+js: 1.anchor
+     to be preciser,object location should be set by $("element").height().
+    2.add baidumap
+     (1)create new map:
+	initialization of Baidumap API;
+     (2)add label;
+     (3)lable in fixed position as screen resizes
+	key1:addEventListener("tilesloaded",function(){}
+	   //meaning reloading as screen resizes.
+	     Target style should be added into function.
+  	key2:logic judgement
+	   //free mousemove.
+	     Prevent window shifting to center as reloading without screen resizing
+
+
+	

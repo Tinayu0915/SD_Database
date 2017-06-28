@@ -129,7 +129,7 @@ $(function () {
 			position: point, // 指定文本标注所在的地理位置
 			offset: new BMap.Size(10, -70) //设置文本偏移量
 		}
-		var label = new BMap.Label("欣才IT学院", opts); // 创建文本标注对象
+		var label = new BMap.Label("三山街地铁站", opts); // 创建文本标注对象
 		label.setStyle({
 			color: "red",
 			fontSize: "14px",

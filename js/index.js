@@ -118,7 +118,7 @@ $(function () {
 		$(".MAP").show();		
 		//MAP初始化
 		var map = new BMap.Map("allmap");
-		var point = new BMap.Point(118.786511, 32.029147);
+		var point = new BMap.Point(118.795956,32.026196);
 		map.centerAndZoom(point, 15);
 		var marker = new BMap.Marker(point); // 创建标注
 		map.addOverlay(marker); // 将标注添加到地图中
@@ -129,7 +129,7 @@ $(function () {
 			position: point, // 指定文本标注所在的地理位置
 			offset: new BMap.Size(10, -70) //设置文本偏移量
 		}
-		var label = new BMap.Label("三山街地铁站", opts); // 创建文本标注对象
+		var label = new BMap.Label("夫子庙", opts); // 创建文本标注对象
 		label.setStyle({
 			color: "red",
 			fontSize: "14px",
